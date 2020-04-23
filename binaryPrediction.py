@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 
-readmission = pd.read_csv("Train.csv")
-dstest = pd.read_csv("Test.csv")
+readmission = pd.read_csv("C2T1_Train.csv")
+dstest = pd.read_csv("C2T1_Test.csv")
 dstest = dstest.rename(columns={'encounter_id':'encounter_id2','patient_nbr':'patient_nbr2'})
 
 #############preprocessing##########################################################################################
